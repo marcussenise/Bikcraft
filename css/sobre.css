@@ -1,0 +1,76 @@
+.interna_sobre{
+	background: url(../img/bg-sobre.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.missao_sobre{
+	padding: 60px 0 0 0;
+}
+
+.missao_sobre p{
+font-size: 18px;
+line-height: 25px;
+margin-bottom: 1em;
+padding-right: 60px;
+}
+
+.missao_sobre ul li{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.foto-equipe{
+	padding-top: 20px;	
+}
+
+
+/* QUALIDADE */
+.sobre{
+    padding: 60px 0px;
+}
+
+.sobre::after{
+    content:"";
+    width: 634px;
+    height: 83px;
+    display: block;
+    background-image: url(../img/linhas.svg);
+    position: absolute;
+    top: 209px;
+    right: 162px;
+    z-index: -1;
+}
+
+.sobre img{
+    margin: 0 auto;
+}
+
+.sobre_lista{
+    padding-top: 20px;
+    overflow: auto;
+
+}
+
+.sobre_lista li{
+    text-align: center;
+    padding: 0 40px;
+}
+
+.sobre_lista li h3{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin-top: 20px;
+}
+
+.sobre_lista li h3::after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #000;
+    margin: 2px auto;
+}
